@@ -1,0 +1,47 @@
+from django.urls import path
+from .views import (
+    api_automobiles,
+    api_sales_person,
+    api_sales_people,
+    api_potential_customer,
+    api_potential_customers,
+    api_sales_record,
+    api_sales_records,
+)
+urlpatterns = [
+    path(
+        "automobiles/",
+        api_automobiles,
+        name="api_automobiles",
+    ),
+    path(
+        "sales_people/",
+        api_sales_people,
+        name="api_sales_people",
+    ),
+    path(
+        "sales_person/<int:pk>/",
+        api_sales_person,
+        name="api_sales_person",
+    ),
+    path(
+        "customers/",
+        api_potential_customers,
+        name="api_potential_customers",
+    ),
+    path(
+        "customer/<int:pk>/",
+        api_potential_customer,
+        name="api_potential_customer",
+    ),
+    path(
+        "sales_records/",
+        api_sales_records,
+        name="api_sales_records"
+    ),
+    path(
+        "sales_record/<int:pk>/",
+        api_sales_record,
+        name="api_sales_record"
+        )
+]

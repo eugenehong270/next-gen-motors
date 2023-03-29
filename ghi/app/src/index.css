@@ -1,0 +1,7 @@
+.navAbsolute {
+  position: absolute
+}
+
+.navbar {
+  z-index: 5;
+}
