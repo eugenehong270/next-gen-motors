@@ -1,4 +1,4 @@
-# Old repo from GitLab: https://gitlab.com/ehong270/nextgen-motors
+Old repo from GitLab: https://gitlab.com/ehong270/nextgen-motors
 
 # NextGen Motors
 Welcome to NextGen Motors!
